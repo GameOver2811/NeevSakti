@@ -5,6 +5,7 @@ import LandingPage from './Pages/LandingPage';
 import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
 import ContactUs from './Pages/ContactUs';
+import Achievements from './Pages/Achievements';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
                 <Route exact path="/" element={<LandingPage/>} /> {/* This is where LandingPage is used */}
                 <Route path="/gallery" element={<Gallery/>} />
+                <Route path="/achievements" element={<Achievements/>} />
                 <Route path="/aboutus" element={<AboutUs/>} />
                 <Route path="/contactus" element={<ContactUs/>} />
 
