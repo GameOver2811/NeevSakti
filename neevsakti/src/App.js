@@ -2,6 +2,9 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes } from 'react-router-dom';
 import LandingPage from './Pages/LandingPage';
+import AboutUs from './Pages/AboutUs';
+import Gallery from './Pages/Gallery';
+import ContactUs from './Pages/ContactUs';
 
 function App() {
   return (
@@ -9,36 +12,11 @@ function App() {
         <BrowserRouter>
 
             <Routes>
-            
-            {/* Main landing Page */}
-            <Route>
-                <LandingPage/>
-            </Route>
 
-            {/* Gallery */}
-            <Route>
-
-            </Route>
-
-            {/* Achivements */}
-            <Route>
-
-            </Route>
-
-            {/* Events */}
-            <Route>
-
-            </Route>
-
-            {/* About Us */}
-            <Route>
-
-            </Route>
-
-            {/* Contant Us */}
-            <Route>
-
-            </Route>
+                <Route exact path="/" element={<LandingPage/>} /> {/* This is where LandingPage is used */}
+                <Route path="/gallery" element={<Gallery/>} />
+                <Route path="/aboutus" element={<AboutUs/>} />
+                <Route path="/contactus" element={<ContactUs/>} />
 
             </Routes>
         
