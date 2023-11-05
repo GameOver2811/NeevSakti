@@ -30,7 +30,7 @@ export default function Navbar(props) {
               
             </ul>
             <form className="d-flex" role="search">
-              <button className="btn btn-success mx-3 " type="submit">Donate here</button>
+              <button className="btn btn-success mx-3 " type="donate">Donate here</button>
               <button className="btn btn-outline-success " type="submit">Contact Us</button>
             </form>
           </div>
