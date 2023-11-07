@@ -5,8 +5,8 @@ export default function Cards() {
   return (
     <div className="container">
     <div className="row ">
-        <div className="col-xl-6 col-lg-6">
-            <div className="card l-bg-cherry">
+        <div className="col-xl-6 col-lg-6 ">
+            <div className="card l-bg-cherry custom-card-cherry">
                 <div className="card-statistic-3 p-4">
                     <div className="card-icon card-icon-large"><i className="fas fa-shopping-cart"></i></div>
                     <div className="mb-4">
@@ -28,8 +28,8 @@ export default function Cards() {
                 </div>
             </div>
         </div>
-        <div className="col-xl-6 col-lg-6">
-            <div className="card l-bg-blue-dark">
+        <div className="col-xl-6 col-lg-6 ">
+            <div className="card l-bg-blue-dark custom-card-blue-dark">
                 <div className="card-statistic-3 p-4">
                     <div className="card-icon card-icon-large"><i className="fas fa-users"></i></div>
                     <div className="mb-4">
@@ -51,8 +51,8 @@ export default function Cards() {
                 </div>
             </div>
         </div>
-        <div className="col-xl-6 col-lg-6">
-            <div className="card l-bg-green-dark">
+        <div className="col-xl-6 col-lg-6 ">
+            <div className="card l-bg-green-dark custom-card-green-dark">
                 <div className="card-statistic-3 p-4">
                     <div className="card-icon card-icon-large"><i className="fas fa-ticket-alt"></i></div>
                     <div className="mb-4">
@@ -61,7 +61,7 @@ export default function Cards() {
                     <div className="row align-items-center mb-2 d-flex">
                         <div className="col-8">
                             <h2 className="d-flex align-items-center mb-0">
-                                Check out our Youtube & connect with us.
+                                Check out our Youtube Channel
                             </h2>
                         </div>
                         <div className="col-4 text-right">
@@ -74,8 +74,8 @@ export default function Cards() {
                 </div>
             </div>
         </div>
-        <div className="col-xl-6 col-lg-6">
-            <div className="card l-bg-orange-dark">
+        <div className="col-xl-6 col-lg-6 ">
+            <div className="card l-bg-orange-dark custom-card-orange-dark">
                 <div className="card-statistic-3 p-4">
                     <div className="card-icon card-icon-large"><i className="fas fa-dollar-sign"></i></div>
                     <div className="mb-4">

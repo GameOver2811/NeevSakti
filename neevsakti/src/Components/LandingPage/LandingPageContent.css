@@ -39,6 +39,11 @@
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
+    transition: all 250ms;
+}
+
+.logo-slogan img:hover{
+    transform: scale(1.02);
 }
 
 .slogan-container{
@@ -171,7 +176,7 @@
     /* Black-container */
 
     .black-wrap{
-        height: 150vh;
+        height: 100vh;
         width: 98vw;
         background-color: rgb(39, 37, 37);
         margin-left: -10vw;

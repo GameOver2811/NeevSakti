@@ -5,6 +5,7 @@
     position: relative;
     margin-bottom: 30px;
     box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+    transition: all 250ms;
 }
 .l-bg-cherry {
     background: linear-gradient(to right, #493240, #f09) !important;
@@ -59,4 +60,24 @@
 .l-bg-cyan {
     background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
     color: #fff;
+}
+
+.custom-card-cherry:hover{
+    transform: scale(1.02);
+    box-shadow: rgb(247, 68, 98) 0px 25px 20px -20px;
+}
+
+.custom-card-blue-dark:hover{
+    transform: scale(1.02);
+    box-shadow: #289cf5 0px 25px 20px -20px;
+}
+
+.custom-card-green-dark:hover{
+    transform: scale(1.02);
+    box-shadow: #43e794 0px 25px 20px -20px;
+}
+
+.custom-card-orange-dark:hover{
+    transform: scale(1.02);
+    box-shadow: #f9900e 0px 25px 20px -20px;
 }
