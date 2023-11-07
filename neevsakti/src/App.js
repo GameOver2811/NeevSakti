@@ -7,6 +7,7 @@ import Gallery from './Pages/Gallery';
 import ContactUs from './Pages/ContactUs';
 import Achievements from './Pages/Achievements';
 import Donate from './Pages/Donate';
+import Events from './Pages/Events';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/gallery" element={<Gallery/>} />
                 <Route path="/achievements" element={<Achievements/>} />
                 <Route path="/aboutus" element={<AboutUs/>} />
+                <Route path="/events" element={<Events/>} />
                 <Route path="/contactus" element={<ContactUs/>} />
                 <Route path="/donate" element={<Donate/>} />
 
