@@ -63,21 +63,25 @@
 }
 
 .custom-card-cherry:hover{
+    cursor: pointer;
     transform: scale(1.02);
     box-shadow: rgb(247, 68, 98) 0px 25px 20px -20px;
 }
 
 .custom-card-blue-dark:hover{
+    cursor: pointer;
     transform: scale(1.02);
     box-shadow: #289cf5 0px 25px 20px -20px;
 }
 
 .custom-card-green-dark:hover{
+    cursor: pointer;
     transform: scale(1.02);
     box-shadow: #43e794 0px 25px 20px -20px;
 }
 
 .custom-card-orange-dark:hover{
+    cursor: pointer;
     transform: scale(1.02);
     box-shadow: #f9900e 0px 25px 20px -20px;
 }

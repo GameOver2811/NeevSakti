@@ -43,6 +43,7 @@
 }
 
 .logo-slogan img:hover{
+    cursor: pointer;
     transform: scale(1.02);
 }
 
@@ -67,6 +68,7 @@
      align-content: center;
      align-items: center;
      flex-direction: column;
+     font-weight: 500;
      flex-wrap: wrap;
 }
 
@@ -110,6 +112,7 @@
 
 .black-head{
     color: #14a44d;
+    font-weight: 500;
 }
 
 .black-text{
@@ -267,6 +270,8 @@
     }
     
 }
+
+
 
 
 
