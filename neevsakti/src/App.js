@@ -6,6 +6,7 @@ import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
 import ContactUs from './Pages/ContactUs';
 import Achievements from './Pages/Achievements';
+import Donate from './Pages/Donate';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/achievements" element={<Achievements/>} />
                 <Route path="/aboutus" element={<AboutUs/>} />
                 <Route path="/contactus" element={<ContactUs/>} />
+                <Route path="/donate" element={<Donate/>} />
 
             </Routes>
         
