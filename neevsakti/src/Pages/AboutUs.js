@@ -26,8 +26,18 @@ export default function AboutUs() {
           Some of our Highlights
         </p>
       </div>
-      <div className='cards-container custom-card flex'>
-        <div className='container'>
+      <div className='cards-container custom-card flex1'>
+        <div className='container'
+        style={{
+          height: "500px",
+          position: "inherit",
+          width: "1100px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexWrap: "warp",
+          padding: "30px"
+        }}>
           <div className='cards'>
             <div className='image'>
             <img src='/images/card1-image.png' alt='image'/>
@@ -39,7 +49,17 @@ export default function AboutUs() {
             </div>
           </div>    
         </div>
-        <div className='container'>
+        <div className='container'
+        style={{
+          height: "500px",
+          position: "inherit",
+          width: "1100px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexWrap: "warp",
+          padding: "30px"
+        }}>
           <div className='cards'>
             <div className='image'>
               <img src='/images/card2-image.jpg' alt='image'/>
@@ -50,7 +70,17 @@ export default function AboutUs() {
             </div>
           </div>    
         </div>
-        <div className='container'>
+        <div className='container'
+        style={{
+          height: "500px",
+          position: "inherit",
+          width: "1100px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexWrap: "warp",
+          padding: "30px"
+        }}>
           <div className='cards'>
             <div className='image'>
               <img src='/images/card3-image.jpg' alt='image'/>
@@ -65,7 +95,7 @@ export default function AboutUs() {
       <div>
 
       </div>
-      <Footer/>
+    <Footer/>
     </div>
   )
 }
