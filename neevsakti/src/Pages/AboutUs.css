@@ -11,8 +11,8 @@
     text-align: center;
     justify-content: center;
     color: #000000c1;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 85px;
 }
 
 .quote{
@@ -96,7 +96,7 @@
     gap: 2rem;
 }
 
-/* cards copy start here*/
+/* cards copy start here */
 .container {
   position: inherit;
   width : 1100px;
@@ -107,7 +107,7 @@
   padding : 30px;  
 }
 
-.container .card {
+.container .cards {
   position: relative;
   max-width : 300px;
   height : 215px;  
@@ -122,12 +122,12 @@
   border-radius : 15px;
 }
 
-.container .card:hover {
+.container .cards:hover {
   height : 320px;    
 }
 
 
-.container .card .image {
+.container .cards .image {
   position : relative;
   width : 260px;
   height : 260px;
@@ -139,12 +139,12 @@
   border-radius: 15px;
 }
 
-.container .card .image img {
+.container .cards .image img {
   max-width : 100%;
   border-radius : 15px;
 }
 
-.container .card .content {
+.container .cards .content {
   position : relative;
   top : -140px;
   padding : 10px 15px;
@@ -156,12 +156,12 @@
   transition : 0.3s ease-in-out;
 }
 
-.container .card:hover .content {
+.container .cards:hover .content {
    margin-top : 30px;
    visibility : visible;
    opacity : 1;
    transition-delay: 0.2s;
 }
 
-/* copy end here*/
+/* copy end here */
 

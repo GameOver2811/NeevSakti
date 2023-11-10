@@ -28,7 +28,7 @@ export default function AboutUs() {
       </div>
       <div className='cards-container custom-card flex'>
         <div className='container'>
-          <div className='card'>
+          <div className='cards'>
             <div className='image'>
             <img src='/images/card1-image.png' alt='image'/>
             </div>
@@ -40,7 +40,7 @@ export default function AboutUs() {
           </div>    
         </div>
         <div className='container'>
-          <div className='card'>
+          <div className='cards'>
             <div className='image'>
               <img src='/images/card2-image.jpg' alt='image'/>
             </div>
@@ -51,7 +51,7 @@ export default function AboutUs() {
           </div>    
         </div>
         <div className='container'>
-          <div className='card'>
+          <div className='cards'>
             <div className='image'>
               <img src='/images/card3-image.jpg' alt='image'/>
             </div>
