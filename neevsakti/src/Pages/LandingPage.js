@@ -8,7 +8,7 @@ export default function LandingPage() {
   return (
     <div>
       
-        <Navbar title="Neev-Sakti" about="About Us"/>
+        <Navbar title="Neev Shakti" about="About Us"/>
         <LandingPageContent/>
         <Footer/>
         
