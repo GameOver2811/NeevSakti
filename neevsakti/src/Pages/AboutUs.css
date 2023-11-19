@@ -48,13 +48,31 @@
     justify-content: center;
 }
 
+.info{
+    margin-top: 1rem;
+    font-size: 1.2vw;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.info1{
+    padding-left: 3vw;
+    font-size: 1vw;
+}
+
+.info2{
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 5rem;
+}
+
 .subHeading-image{
     position: relative;
-    margin-left: 50%;
-    margin-top: 0%;
-    margin-right: 40px;
+    margin-left: 90%;
     border-radius: 20px;
-    width: 95%;
+    width: 100%;
+    align-items: right;
 }
 
 .topImage:hover{
@@ -73,7 +91,7 @@
 .highlights{
     font-size: 2.7vw;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 30px;
 }
 
@@ -84,7 +102,7 @@
     margin-left: 100px;
     margin-right: 0%;
     margin-bottom: 100px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .custom-card{
@@ -114,7 +132,7 @@
 }
 
 .container .cards:hover {
-  height : 320px;    
+  height : 340px;    
 }
 
 
@@ -155,3 +173,60 @@
 }
 
 /* copy end here */
+
+.outer-border-founders-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-founders-container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.richa{
+    width: 70%;
+    height: 100%;
+    border-radius: 100%;
+    margin-left: 6vh;
+}
+
+.inner1a{
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    height: 100%;
+}
+
+.inner1b{
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 3vw 1vh 2vw;
+}
+
+.inner-founders-container2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.divya{
+    width: 70%;
+    height: 100%;
+    border-radius: 100%;
+    margin-left: 6vh;
+}
+
+.inner2a{
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    height: 100%;
+}
+
+.inner2b{
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 3vw 1vh 2vw;
+}
