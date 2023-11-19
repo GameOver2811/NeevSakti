@@ -1,6 +1,7 @@
 import React from 'react'
 import './LandingPageContent.css';
 import Cards from './Cards';
+import Footer from './Footer';
 
 export default function LandingPage() {
   return (
@@ -116,6 +117,7 @@ export default function LandingPage() {
       {/* card and its heading */}
 
       <Cards/>
+      <Footer/>
 
    </div>
   );
