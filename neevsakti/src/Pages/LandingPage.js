@@ -1,7 +1,6 @@
 import React from 'react'
 import LandingPageContent from '../Components/LandingPage/LandingPageContent'
 import Navbar from '../Components/LandingPage/Navbar'
-import Footer from '../Components/LandingPage/Footer'
 
 
 export default function LandingPage() {
@@ -10,7 +9,7 @@ export default function LandingPage() {
       
         <Navbar title="Neev Shakti" about="About Us"/>
         <LandingPageContent/>
-        <Footer/>
+        {/* <Footer/> */}
         
     </div>
   )
