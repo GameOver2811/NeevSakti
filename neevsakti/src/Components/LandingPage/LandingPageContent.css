@@ -18,19 +18,28 @@
 
 .main-img{
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition: all 250ms;
+}
+
+.main-img:hover{
+    transform: scale(1.005);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .main-img img{
     width: 80vw;
     height: 85vh;
-    border: 1px solid black;
-    border-radius: 20px;
+    /* border: 1px solid black; */
+    /* border-radius: 20px; */
 }
 
 
 /* slogan and logo */
 
 .logo-slogan{
+    font-family: 'Poppins';
     gap: 3rem;
     margin-left: 30vw;
 }
@@ -74,12 +83,14 @@
 
 .what-we-do-text,
 .img-text-text-head{
+    font-family: 'Poppins';
     font-size: 3rem;
     color: black;
 }
 
 .what-we-do p,
 .img-text-text-content{
+    /* font-family: 'Poppins'; */
     max-width: 45vw;
     font-size: 1.5rem;
     text-align: center;
@@ -89,6 +100,12 @@
     width: 20vw;
     height: 60vh;
     border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 250ms;
+}
+
+.img-text-img img:hover{
+    transform: scale(1.01);
 }
 
 .img-text-text-content{
@@ -104,18 +121,20 @@
 
 .black-wrap{
     height: 100vh;
-    width: 98vw;
+    width: 98.6vw;
     background-color: rgb(39, 37, 37);
     margin-left: -10vw;
     /* overflow: hidden; */
 }
 
 .black-head{
+    font-family: 'Poppins';
     color: #14a44d;
     font-weight: 500;
 }
 
 .black-text{
+    /* font-family: 'Poppins'; */
     color: white;
 }
 
