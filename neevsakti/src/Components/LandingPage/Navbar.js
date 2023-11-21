@@ -1,7 +1,6 @@
 import React from 'react'
+import './Logo.css'
 import { useNavigate } from 'react-router-dom';
-import Achievements from '../../Pages/Achievements';
-import Gallery from '../../Pages/Gallery';
 
 export default function Navbar(props) {
 
@@ -44,9 +43,18 @@ export default function Navbar(props) {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top navbar-dark bg-dark" >
+      <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-dark navbar-dark" >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">{props.title}</a>
+
+          {/*  */}
+          <a className="navbar-brand" href="#">
+            <button class="button" data-text="Awesome">
+                <span class="actual-text">&nbsp;Neev-Sakti&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;Neev-Sakti&nbsp;</span>
+            </button>
+          </a>
+
+          {/*  */}
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
